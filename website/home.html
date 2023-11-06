@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png">
+  <title>Wakey Wakey Bakey Bakey</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+
+</head>
+
+<!-- BODY -->
+
+<body>
+
+  <div id="box">
+  </div>
+
+<!-- NAVIGATION -->
+
+  <div id="header">
+
+    <a href="home.html"><img src="images/logo.png" alt="The logo of the fictitious company 'Wakey Wakey Bakey Bakey'."></a>
+
+    <label for="dropdown" id="burger">&#9776;</label>
+    <input type="checkbox" id="dropdown" onclick="dropdown()">
+
+  </div>
+
+  <sl-avatar image="images/icon.png">
+  </sl-avatar>
+
+  <ul id="nav">
+
+    <li><a href="about.html">About</a></li>
+    <li><a href="browse.html">Browse</a></li>
+    <li><a href="create.html">Create</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+<!-- CAROUSEL -->
+
+  <div id="carousel">
+
+    <sl-carousel class="carousel" loop autoplay pagination>
+
+      <sl-carousel-item>
+
+        <img src="images/carousel.png" alt="A store front of a cake shop.">
+
+      </sl-carousel-item>
+
+      <sl-carousel-item>
+
+        <img src="images/birthdays.png" alt="An image of a cake with candles.">
+
+      </sl-carousel-item>
+
+      <sl-carousel-item>
+
+        <img src="images/create1.png" alt="A man decorating a cake.">
+
+      </sl-carousel-item>
+      
+    </sl-carousel>
+
+  </div>
+
+<!-- CONTENT -->
+
+  <div id="home">
+
+    <div id="homeleft">
+
+      <h1>Take-a-Cake</h1>
+      <p>Browse from our selection of cakes...</p>
+      <button type="button" id="browse" onclick="location.href='browse.html'">Browse</button>
+  
+    </div>
+  
+    <div id="homeright">
+  
+      <h1>Make-a-Cake</h1>
+      <p>...or create your own custom cake!</p>
+      <button type="button" id="create" onclick="location.href='create.html'">Create</button>
+      
+    </div>
+
+  </div>
+
+<!-- SCRIPTS -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
+
+<!-- CREDITS -->
+
+<!--
+
+American Heritage Chocolate. 2020. “White cake with chocolate syrup on white ceramic plate.” Unsplash. https://unsplash.com/photos/white-cake-with-chocolate-syrup-on-white-ceramic-plate-vdx5hPQhXFk.
+Arnau, Xavier. 2014. “Cake display stock photo.” iStock. https://www.istockphoto.com/photo/cake-display-gm526259891-53193554?phrase=bakery+window.
+Be, Henry. 2018. “Chocolate cake.” Unsplash. https://unsplash.com/photos/chocolate-cake-_y5CCcYWTjU.
+Belchonock. n.d. “Tasty chocolate cake.” Depositphotos. Accessed November 1, 2023. https://depositphotos.com/photos/vintage-cake.html?qview=129487472.
+Coquet, Adrien. n.d. “Phone free icon.” Flaticon. Accessed November 2, 2023. https://www.flaticon.com/free-icon/phone_2198371.
+Cottonbro Studio. 2020. “Close-up photograph of a birthday cake with lit candles.” Pexels. https://www.pexels.com/photo/close-up-photograph-of-a-birthday-cake-with-lit-candles-6670579/.
+CRAFT24. 2017. “Blurred abstract background coffee shop display.” Shutterstock. https://www.shutterstock.com/image-photo/blurred-abstract-background-coffee-shop-display-737287498.
+Djouada, Kaouther. 2020. “Chocolate cake with white icing on top.” Unsplash. https://unsplash.com/photos/chocolate-cake-with-white-icing-on-top-n5md-fVGm28.
+Edt.im. n.d. “Instagram free icon.” Flaticon. Accessed November 2, 2023. https://www.flaticon.com/free-icon/instagram_717392.
+The French Kitchen. n.d. “Naked chocolate cake round 9”.” The French Kitchen. Accessed November 2, 2023. https://thefrenchkitchen.com.au/products/naked-chocolate-round.
+Holifield, David. 2020. “Chocolate cake.” Unsplash. https://unsplash.com/photos/chocolate-cake-kPxsqUGneXQ.
+James, Ron. 2019. “Round white cake on cake stand.” Unsplash. https://unsplash.com/photos/round-white-cake-on-cake-stand-K9v6ACaGuvQ.
+Kuukkik. n.d. “Cookie cake recipe.” Pinterest. Accessed November 1, 2023. https://co.pinterest.com/pin/797629783985895765.
+LightFieldStudios. 2018. “Portrait of confectioner decorating cake in restaurant kitchen stock photo.” iStock. https://www.istockphoto.com/photo/portrait-of-confectioner-decorating-cake-in-restaurant-kitchen-gm921788748-253113927.
+Luz, Leonardo. 2022. “Elegant decorated cake.” Pexels. https://www.pexels.com/photo/elegant-decorated-cake-14000006.
+Mukhtar, Amir. 2022. “Dessert of mixed chocolate cake and fruit cakes in display for sale.” iStock. https://www.istockphoto.com/photo/dessert-of-mixed-chocolate-cake-and-fruit-cakes-in-display-cabinet-for-sale-gm1417434790-464583277.
+Serezniy. 2019. “Sweet chocolate cake on wooden table.” Depositphotos. https://depositphotos.com/photo/sweet-chocolate-cake-on-wooden-table-252391082.html.
+Smirnoff, Debbie. 2012. “White chocolate fudge cake stock photo.” iStock. https://www.istockphoto.com/photo/whole-chocolate-fudge-cake-gm185222223-19819086.
+Tankilevitch, Polina. 2020. “Photo of chocolate cake on wooden plate.” Pexels. https://www.pexels.com/photo/photo-of-chocolate-cake-on-wooden-plate-4109998.
+Tavares, Ana. 2020. “White and brown food on white ceramic plate.” Unsplash. https://unsplash.com/photos/white-and-brown-food-on-white-ceramic-plate-NyQwVPacW00.
+Th Studio. n.d. “Email free icon.” Flaticon. Accessed November 2, 2023. https://www.flaticon.com/free-icon/email_2767188.
+Urban_Light. n.d. “Gourmet tiered wedding cake at wedding reception.” Depositphotos. Accessed November 1, 2023. https://depositphotos.com/photo/wedding-cake-56028307.html.
+Williamson, Deva. 2019. “Baked cupcake.” Unsplash. https://unsplash.com/photos/baked-cupcake-S2jw81lfrG0.
+Williamson, Deva. 2019. “Five cupcakes beside cake.” Unsplash. https://unsplash.com/photos/five-cupcakes-beside-cake-pZZJwwNPy2k.
+Williamson, Deva. 2019. “Rainbow covered cake.” Unsplash. https://unsplash.com/photos/rainbow-covered-cake-m4A2KWBU7xI.
+
+-->
